@@ -1,0 +1,42 @@
+body{
+    flex-direction: row;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    background: black;
+    margin: 4rem;
+}
+
+main {
+   flex: 1;
+}
+
+div {
+    background: #2A2141;
+    border-radius: 4%;
+}
+
+
+aside{
+    flex: 1;
+    justify-items: center;
+    justify-content: center;
+}
+
+aside img {
+    justify-items: center;
+    display: flex;
+}
+
+.bloco1 {
+    height: 50vh;
+    margin-bottom: 4rem;
+}
+
+.bloco2 {
+    height: 32vh;
+}
+
+.bloco3 {
+    height: 90vh;
+}
